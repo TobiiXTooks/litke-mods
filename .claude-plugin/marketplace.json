@@ -1,0 +1,12 @@
+{
+  "name": "litke-mods",
+  "owner": { "name": "TobiiXTooks" },
+  "metadata": { "description": "Eigene und gesammelte Claude-Code-Mods." },
+  "plugins": [
+    { "name": "cache-meter", "source": "./plugins/cache-meter", "description": "Leiste über dem Eingabefeld: Cache-Restzeit, Cache-Hit-Rate, Kontextfüllung mit Wetter-Emoji und Compact-Button." },
+    { "name": "next-steps", "source": "./plugins/next-steps", "description": "Vorschläge für nächste Schritte (übernommen von hamzafer/claude-code-mods 0.3.0)." },
+    { "name": "blast-radius", "source": "./plugins/blast-radius", "description": "Hält riskante Shell-Befehle an und zeigt, was sie ändern würden (aus claude-code-playground)." },
+    { "name": "replay-theater", "source": "./plugins/replay-theater", "description": "Die Datei-Änderungen des letzten Turns Diff für Diff durchgehen (aus claude-code-playground)." },
+    { "name": "token-weather", "source": "./plugins/token-weather", "description": "Live-Vorhersage des Kontextfensters über dem Eingabefeld (aus claude-code-playground)." }
+  ]
+}

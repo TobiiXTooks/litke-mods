@@ -1,0 +1,5 @@
+{
+  "name": "cache-meter",
+  "description": "Leiste über dem Eingabefeld: Cache-Restzeit, Cache-Hit-Rate, Kontextfüllung mit Wetter-Emoji und Compact-Button.",
+  "types": "./types/index.d.ts"
+}
